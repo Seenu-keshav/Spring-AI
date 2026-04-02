@@ -1,6 +1,10 @@
 HELP.md
 target/
+<<<<<<< HEAD
 !.mvn/wrapper/maven-wrapper.jar
+=======
+.mvn/wrapper/maven-wrapper.jar
+>>>>>>> ec5038f (Initial commit)
 !**/src/main/**/target/
 !**/src/test/**/target/
 
@@ -14,7 +18,11 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
+<<<<<<< HEAD
 .idea/
+=======
+.idea
+>>>>>>> ec5038f (Initial commit)
 *.iws
 *.iml
 *.ipr
@@ -32,4 +40,8 @@ build/
 ### VS Code ###
 .vscode/
 
+<<<<<<< HEAD
 generated_image_*
+=======
+.DS_Store
+>>>>>>> ec5038f (Initial commit)
