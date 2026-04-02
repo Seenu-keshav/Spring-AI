@@ -1,17 +1,81 @@
-# Mastering Spring AI Course
-This is a complete course to master [Spring AI](https://spring.io/projects/spring-ai) by [SivaLabs](https://www.youtube.com/sivalabs).
+# Spring-AI
 
-![mastering-spring-ai.png](docs/mastering-spring-ai.png)
+A simple Spring Boot project integrating AI capabilities using modern tools and APIs.
 
-## Table of Contents
-1. [Getting Started with Spring AI and OpenAI](https://youtu.be/djb3KRV-cno)
-2. [Chat with OpenAI Compatible Models (Gemini, Groq, Docker Model Runner, etc.)](https://youtu.be/efRd68orIqY)
-3. [Chat with Ollama](https://youtu.be/HLiZfHuiwsQ)
-4. [Chat with Anthropic Models](https://youtu.be/v_MmSCsdnpo)
-5. [Prompt Templates](https://youtu.be/cGEBrJlpvyk)
-6. [Structured Output](https://youtu.be/MpTNOhJ_Jjk)
-7. [Chat Memory](https://youtu.be/LTkch_PO2mM)
-8. [Embedding Models & Vector Stores and RAG](https://youtu.be/uUmdAa5OF9k)
-9. [Tool Calling](https://youtu.be/LJCnpsdhPlQ)
-10. [Model Context Protocol (MCP)](https://youtu.be/z9H-qgbJNHI)
+## 🚀 Features
 
+* Spring Boot based backend
+* AI integration (chat / text generation)
+* REST APIs for interaction
+* Easy to extend and customize
+
+## 🛠️ Tech Stack
+
+* Java
+* Spring Boot
+* Spring AI (or OpenAI API)
+* Maven
+
+## 📂 Project Structure
+
+```
+Spring-AI/
+│── src/
+│   ├── main/
+│   │   ├── java/
+│   │   └── resources/
+│── pom.xml
+│── README.md
+```
+
+## ⚙️ Setup & Run
+
+1. Clone the repository
+
+```
+git clone https://github.com/Seenu-keshav/Spring-AI.git
+```
+
+2. Navigate to project
+
+```
+cd Spring-AI
+```
+
+3. Build the project
+
+```
+mvn clean install
+```
+
+4. Run the application
+
+```
+mvn spring-boot:run
+```
+
+## 🔑 Configuration
+
+Add your API key in `application.properties`:
+
+```
+openai.api.key=YOUR_API_KEY
+```
+
+## 📡 API Example
+
+```
+GET /api/chat?message=Hello
+```
+
+## 🤝 Contributing
+
+Feel free to fork this repo and submit pull requests.
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+✨ Created by Seenu Keshav
